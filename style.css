@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+header {}
+
+body {
+    font-family: "Gotu", serif;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.headerTop .container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+a {
+    line-height: 40px;
+    display: block;
+    text-decoration: none;
+    color: #333;
+    padding: 0 10px;
+    font-family: "Gotu", serif;
+    transition: 0.3s;
+    opacity: 0.5;
+}
+
+a:hover {
+    opacity: 1;
+
+}
+
+.headerTopLeft {
+    display: flex;
+
+}
+
+.headerTopLeft a {
+    color: #666;
+
+}
+
+.headerTopRight {
+    display: flex;
+
+}
+
+.headerTopRight button {
+    width: 40px;
+    background-color: white;
+    border: none;
+    border-left: 1px solid #666;
+    border-right: 1px solid #666;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+.headerTopRight button:hover {
+    opacity: 1;
+
+}
+
+#search {
+    background-image: url('img/search.svg');
+}
+
+.headerTop {
+    border-bottom: 1px solid #666;
+
+}
+
+#basket {
+    background-image: url('img/bag.svg')
+}
+
+#favorites {
+    background-image: url('img/heart.svg')
+}
+
+#profile {
+    background-image: url('img/avatar-people-profile-svgrepo-com.svg')
+}
+
+.headerBottom .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#logo {
+    width: 40px;
+    height: 40px;
+    background-image: url('img/diamond.svg');
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px 0;
+}
+
+header nav {
+    display: flex;
+}
+
+#video {
+    width: 100%;
+
+}
+
+.heroInfo img {
+    height: 25px;
+    filter:invert(1);
+    margin-left:20px ;
+}
+
+.heroInfo {
+    position: absolute;
+    /* background-color: rgba(255, 0, 0, 0.407); */
+    top: 50%;
+    width: 100%;
+    color: white;
+}
+
+.hero {
+    position: relative;
+}
+
+.heroInfo a {
+    color: white;
+    opacity: 1;
+    padding:0 ;
+    display: flex;
+    align-items: center;
+    margin-top:150px;
+}
+.heroInfo a:hover{
+    opacity:0.5;
+}
