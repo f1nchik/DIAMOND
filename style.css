@@ -148,3 +148,63 @@ header nav {
 .heroInfo a:hover{
     opacity:0.5;
 }
+.categories{
+    margin-top:100px;
+
+
+}
+.category{
+    flex: 1;
+    padding: 0;
+    opacity:1;
+}
+.category:hover h4{
+    text-decoration-color: #222;
+}
+.category h4{
+    transition:0.3s;
+    text-decoration:underline;
+    text-decoration-color:transparent;
+}
+.categoriesCards{
+    margin-top:20px;
+    display: flex;
+    gap: 10px;
+}
+.category img{
+    width:100%;
+}
+.collections{
+    display: flex;
+    flex-wrap: wrap;
+}
+.collections > div{
+    width: 50%;
+    height:50vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    /* нужно,чтобы пейдинг не расширял тег */
+    box-sizing: border-box;
+}
+#man{
+    background-image: url(img/men.webp);
+    background-size: 40%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+}
+#man .collectionText{
+    
+}
+#tarot{
+    background-image: url(img/side.webp);
+}
+#charity{
+    background-image: url(img/charity.webp);
+}
+#objects{
+    background-image: url(img/books.webp);
+    background-size: 40%;
+    background-repeat: no-repeat;
+}
